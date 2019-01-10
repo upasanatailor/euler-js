@@ -1,0 +1,16 @@
+{
+  "name": "euler-js",
+  "version": "0.0.1",
+  "description": "Solutions to Project Euler problems in pure JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "euler",
+    "javascript",
+    "es6"
+  ],
+  "author": "Kevin Koester",
+  "license": "ISC"
+}
