@@ -7,9 +7,7 @@ module.exports = ({ verbose }) => {
     const multiples = [];
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
-    for (let i = 1; i <= 1000; i++) {
-      if (i * n < 1000) multiples.push(i * n);
-    }
+    for (let i = 1; i * n < 1000; i++) multiples.push(i * n);
 
     const sumOfMultiples = multiples.reduce(reducer);
     if (verbose) {

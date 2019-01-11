@@ -49,7 +49,7 @@ const run = async () => {
 
   if (!PROBLEM_ID) {
     console.log(chalk.yellow("\n⚠️ No Problem ID provided."));
-    process.exit();
+    process.exit(1);
   }
 
   if (solutions.includes(PROBLEM_ID)) {
