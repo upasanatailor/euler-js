@@ -1,16 +1,27 @@
 {
   "name": "euler-js",
-  "version": "0.0.1",
-  "description": "Solutions to Project Euler problems in pure JS",
+  "version": "0.0.2",
+  "description": "A fun little (useless) node CLI with solutions to Project Euler problems solved in JavaScript",
   "main": "index.js",
+  "bin": {
+    "eulerjs": "./index.js"
+  },
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
-    "euler",
+    "project euler",
     "javascript",
-    "es6"
+    "es6",
+    "cli"
   ],
   "author": "Kevin Koester",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1"
+  }
 }
