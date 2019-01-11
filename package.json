@@ -1,6 +1,6 @@
 {
   "name": "euler-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A fun little (useless) node CLI with solutions to Project Euler problems solved in JavaScript",
   "main": "index.js",
   "bin": {
