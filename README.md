@@ -1,4 +1,4 @@
-# EulerJS
+# EulerJS1
 
 This repo contains solutions to [Project Euler](https://projecteuler.net/archives) problems in pure JavaScript.
 It's a fun (aka. useless) node cli that you can pass the ID of the problem to and it will tell you the solution.
