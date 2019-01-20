@@ -13,7 +13,7 @@ We do not claim to have the most elegant solutions, but solutions nonetheless.
 
 ## Available Solutions
 
-- [x] Multiples of 3 and 5
+- [x] Multiples of 3 and 6
 - [ ] Even Fibonacci numbers
 - [ ] Largest prime factor
 - [ ] Largest palindrome product
